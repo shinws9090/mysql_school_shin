@@ -102,4 +102,10 @@ public class ScoreDaoImpl implements ScoreDao {
 		return 0;
 	}
 
+	@Override
+	public int updateScore(Score score) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 }

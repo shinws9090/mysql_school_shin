@@ -9,6 +9,7 @@ public interface ScoreDao {
 	List<Score> selectScoreByAll();
 	Score selectScoreByNo(Score score);
 	int insertScore(Score score);
+	int updateScore(Score score);
 	int deleteScore(int no);
 	
 	
